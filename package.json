@@ -1,5 +1,6 @@
 {
-	"name": "https://jenkruk.github.io/solana_rust_react_front/",
+	"name": "solana_rust_react_front",
+	"homepage": "https://jenkruk.github.io/solana_rust_react_front/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
