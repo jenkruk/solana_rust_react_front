@@ -3,6 +3,7 @@ import "./App.css";
 import { Connection, PublicKey, clusterApiUrl } from "@solana/web3.js";
 import { Program, AnchorProvider, web3 } from "@project-serum/anchor";
 import kp from "./keypair.json";
+import Footer from './Components/Footer'
 
 // SystemProgram is a reference to the Solana runtime!
 const { SystemProgram } = web3;
@@ -151,7 +152,7 @@ const App = () => {
 					>
 						<input
 							type='text'
-							placeholder='Enter gif link!'
+							placeholder='Enter your dance gif here!'
 							value={inputValue}
 							onChange={onInputChange}
 						/>
@@ -159,14 +160,25 @@ const App = () => {
 							Submit
 						</button>
 					</form>
+					<div className='giphy_link'>
+						{" "}
+						<a
+							href='https://giphy.com/search/dance-party'
+							rel='noreferrer'
+							target='_blank'
+						>
+							Go to giphy.com
+						</a>
+					</div>
 					<div className='gif-grid'>
 						{/* We use index as the key instead, also, the src is now item.gifLink */}
 						{gifList.map((item, index) => (
 							<div className='gif-item' key={index}>
-								<img src={item.gifLink} alt="gif"/>
+								<img src={item.gifLink} alt='gif' />
 							</div>
 						))}
 					</div>
+					<Footer />
 				</div>
 			);
 		}
@@ -178,7 +190,6 @@ const App = () => {
 		// Create a program that you can call
 		return new Program(idl, programID, getProvider());
 	};
-
 
 	const getGifList = async () => {
 		try {
@@ -195,9 +206,7 @@ const App = () => {
 		}
 	};
 
-
 	useEffect(() => {
-
 		if (walletAddress) {
 			console.log("Fetching GIF list...");
 			getGifList();
@@ -224,8 +233,9 @@ const App = () => {
 					{!walletAddress && renderNotConnectedContainer()}
 					{walletAddress && renderConnectedContainer()}
 				</div>
-
+				
 			</div>
+
 		</div>
 	);
 };

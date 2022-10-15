@@ -77,13 +77,8 @@ form {
   cursor: pointer;
 }
 
-.twitter-logo {
-  width: 35px;
-  height: 35px;
-}
-
 .connected-container {
-  padding-bottom: 10vh;
+  padding-bottom: 3vh;
 }
 
 .connected-container input[type='text'] {
@@ -109,6 +104,7 @@ form {
   width: 50%;
   margin: -4vh 25% 0 25%;
   z-index: 10;
+  cursor: pointer;
 }
 
 .giphy_link a {
@@ -154,8 +150,20 @@ form {
   padding-top: 45px;
 }
 
-.footer-text {
+.footer {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  height: 7vh;
+  justify-content: space-around;
+  z-index: 9999;
+}
+
+.footer_links a {
+  color: white;
+  margin: 3vh 2vw;
+  text-underline-position: under;
+  cursor: pointer;
 }
