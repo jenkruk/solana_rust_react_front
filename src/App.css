@@ -1,144 +1,144 @@
 .App {
-  height: 100vh;
-  background-color: #1a202c;
-  text-align: center;
-  overflow-y: scroll;
+	height: 100vh;
+	background-color: #1a202c;
+	text-align: center;
+	overflow-y: scroll;
 }
 
 .container {
-  height: 100%;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 30px 0 30px;
+	height: 100%;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 30px 0 30px;
 }
 
 .authed-container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
 }
 
 .header {
-  margin: 0;
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
+	margin: 0;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
 }
 
 .sub-text {
-  font-size: 25px;
-  color: white;
+	font-size: 25px;
+	color: white;
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 button:hover {
-  color: red;
+	color: red;
 }
 
 button.cta-button {
-  height: 45px;
-  border: 0;
-  width: auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  z-index: 99999;
+	height: 45px;
+	border: 0;
+	width: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	z-index: 99999;
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
-  background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
-  cursor: pointer;
+	background: -webkit-linear-gradient(left, #60c657, #35aee2);
+	background-size: 200% 200%;
+	animation: gradient-animation 4s ease infinite;
+	cursor: pointer;
 }
 
 form {
-  z-index: 1000;
+	z-index: 1000;
 }
 
 .submit-gif-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
-  background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
-  margin-left: 10px;
-  cursor: pointer;
+	background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+	background-size: 200% 200%;
+	animation: gradient-animation 4s ease infinite;
+	margin-left: 10px;
+	cursor: pointer;
 }
 
 .connected-container {
-  padding-bottom: 3vh;
+	padding-bottom: 3vh;
 }
 
-.connected-container input[type='text'] {
-  display: inline-block;
-  color: white;
-  padding: 10px;
-  width: 50%;
-  height: 60px;
-  font-size: 16px;
-  box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.25);
-  border: none;
-  border-radius: 10px;
-  margin: 50px auto;
-  outline: none;
+.connected-container input[type="text"] {
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	width: 50%;
+	height: 60px;
+	font-size: 16px;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.25);
+	border: none;
+	border-radius: 10px;
+	margin: 50px auto;
+	outline: none;
 }
 
 .connected-container button {
-  height: 50px;
+	height: 50px;
 }
 
 .giphy_link {
-  width: 50%;
-  margin: -4vh 25% 0 25%;
-  z-index: 10;
-  cursor: pointer;
+	width: 50%;
+	margin: -4vh 25% 0 25%;
+	z-index: 10;
+	cursor: pointer;
 }
 
 .giphy_link a {
-  color: white !important;
-  cursor: pointer;
-  z-index: 11;
-  text-decoration: none;
+	color: white !important;
+	cursor: pointer;
+	z-index: 11;
+	text-decoration: none;
 }
 
 .gif-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  grid-gap: 1.5rem;
-  justify-items: center;
-  margin: 5vh 0;
-  padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	grid-gap: 1.5rem;
+	justify-items: center;
+	margin: 5vh 0;
+	padding: 0;
 }
 
 .gif-grid .gif-item {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-self: center;
-  align-self: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-self: center;
+	align-self: center;
 }
 
 .gif-item img {
-  width: 100%;
-  height: 300px;
-  border-radius: 10px;
-  object-fit: cover;
+	width: 100%;
+	height: 300px;
+	border-radius: 10px;
+	object-fit: cover;
 }
 
-.footer-container {
+/* .footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,30 +148,56 @@ form {
   left: 0;
   padding-bottom: 45px;
   padding-top: 45px;
-}
+} */
 
 .footer {
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  height: 7vh;
-  justify-content: space-around;
-  z-index: 9999;
-  position: relative;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	/* height: 7vh; */
+	justify-content: space-around;
+	z-index: 9999;
+	position: relative;
+  padding-bottom: 7vh;
+}
+
+.footer p {
+	padding: 0 0 2vh 0;
 }
 
 .footer_links a {
-  color: white;
-  margin: 3vh 2vw;
-  text-underline-position: under;
-  cursor: pointer;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0.5vh 0 0.5vh;
+  margin: 0 1.5vw;
 }
 
+.footer_links a:hover {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+
 @media (max-width: 815px) {
-    .footer_links {
-        display: flex;
-        flex-direction: column;
-    }
+	.footer p {
+		padding: 0 0 0.5vh 0;
+	}
+
+	.footer_links {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer_links a {
+    width: 50vw;
+    margin: .25vh auto;
+    padding: 0.5vh 0 0.25vh;
+  }
+
+  .footer_links a:hover {
+	border: none;
+}
 }
