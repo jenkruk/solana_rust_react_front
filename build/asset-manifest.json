@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/solana_rust_react_front/static/css/main.ae7767e8.chunk.css",
-    "main.js": "/solana_rust_react_front/static/js/main.dade6c2e.chunk.js",
-    "main.js.map": "/solana_rust_react_front/static/js/main.dade6c2e.chunk.js.map",
+    "main.css": "/solana_rust_react_front/static/css/main.9b2040f3.chunk.css",
+    "main.js": "/solana_rust_react_front/static/js/main.83aec27d.chunk.js",
+    "main.js.map": "/solana_rust_react_front/static/js/main.83aec27d.chunk.js.map",
     "runtime-main.js": "/solana_rust_react_front/static/js/runtime-main.11f4e259.js",
     "runtime-main.js.map": "/solana_rust_react_front/static/js/runtime-main.11f4e259.js.map",
-    "static/js/2.9b6e673b.chunk.js": "/solana_rust_react_front/static/js/2.9b6e673b.chunk.js",
-    "static/js/2.9b6e673b.chunk.js.map": "/solana_rust_react_front/static/js/2.9b6e673b.chunk.js.map",
+    "static/js/2.2a784d60.chunk.js": "/solana_rust_react_front/static/js/2.2a784d60.chunk.js",
+    "static/js/2.2a784d60.chunk.js.map": "/solana_rust_react_front/static/js/2.2a784d60.chunk.js.map",
     "index.html": "/solana_rust_react_front/index.html",
-    "static/css/main.ae7767e8.chunk.css.map": "/solana_rust_react_front/static/css/main.ae7767e8.chunk.css.map",
-    "static/js/2.9b6e673b.chunk.js.LICENSE.txt": "/solana_rust_react_front/static/js/2.9b6e673b.chunk.js.LICENSE.txt"
+    "static/css/main.9b2040f3.chunk.css.map": "/solana_rust_react_front/static/css/main.9b2040f3.chunk.css.map",
+    "static/js/2.2a784d60.chunk.js.LICENSE.txt": "/solana_rust_react_front/static/js/2.2a784d60.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.11f4e259.js",
-    "static/js/2.9b6e673b.chunk.js",
-    "static/css/main.ae7767e8.chunk.css",
-    "static/js/main.dade6c2e.chunk.js"
+    "static/js/2.2a784d60.chunk.js",
+    "static/css/main.9b2040f3.chunk.css",
+    "static/js/main.83aec27d.chunk.js"
   ]
 }

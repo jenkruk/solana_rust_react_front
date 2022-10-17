@@ -1,5 +1,5 @@
+import './app.css'
 import React, { useEffect, useState } from "react";
-import "./App.css";
 import { Connection, PublicKey, clusterApiUrl } from "@solana/web3.js";
 import { Program, AnchorProvider, web3 } from "@project-serum/anchor";
 import kp from "./keypair.json";
@@ -32,6 +32,8 @@ const getProvider = () => {
 	);
 	return provider;
 };
+
+console.log(window.innerWidth);
 
 const App = () => {
 	const [walletAddress, setWalletAddress] = useState(null);

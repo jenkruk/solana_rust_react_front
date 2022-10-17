@@ -159,6 +159,7 @@ form {
   height: 7vh;
   justify-content: space-around;
   z-index: 9999;
+  position: relative;
 }
 
 .footer_links a {
@@ -166,4 +167,11 @@ form {
   margin: 3vh 2vw;
   text-underline-position: under;
   cursor: pointer;
+}
+
+@media (max-width: 815px) {
+    .footer_links {
+        display: flex;
+        flex-direction: column;
+    }
 }
